@@ -1,0 +1,7 @@
+services:
+  swapi:
+    container_name: swapi
+    build: .
+    command: uvicorn app.main:app --host 0.0.0.0 --reload
+    ports:
+      - 8000:8000
