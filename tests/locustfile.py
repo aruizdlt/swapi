@@ -1,5 +1,6 @@
 from locust import HttpUser, task, constant
 
+
 class DemoUser(HttpUser):
     # Simula el comportamiento de los usuarios con un tiempo de espera entre tareas
     wait_time = constant(1)
