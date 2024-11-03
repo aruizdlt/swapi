@@ -1,4 +1,4 @@
-name: CI/CD swapi
+name: CI/CD
 
 on:
   push:
