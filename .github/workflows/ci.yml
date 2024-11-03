@@ -1,4 +1,4 @@
-name: swapi pipeline
+name: CI/CD swapi
 
 on:
   push:
