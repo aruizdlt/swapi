@@ -6,6 +6,7 @@ app = FastAPI()
 
 app.include_router(people_router)
 
+
 @app.get("/")
 async def root():
     return {"message": "Welcome to the Star Wars API using Clean Architecture!"}
